@@ -5,68 +5,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" 
     content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
     <meta name="viewport"
     content="width=device-width, initial-scale=1.0">
-    <link href="favicon.ico" rel="icon" type="image/x-icon">
+    <link href="/DAVEoagweb/favicon.ico" rel="icon" type="image/x-icon">
+    <style>
+        header{
+            text-align: center;
+            font: bolder;
+            font-size: x-large;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        header:hover{
+            opacity: 0.65;
+        }
+        html{
+            background-color: rgb(90, 194, 150);
+            font-family: sans-serif;
+        }
+        summary{
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        summary:hover{
+            opacity: 0.65;
+        }
+        .nav-buttons{
+            width: 100px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: opacity 0.2s;
+            font-weight: bolder;
+        }
+        .nav-buttons:hover{
+            opacity: 0.65;
+        }
+        .dave-pic{
+            padding-top: 10px;
+            width: 500px;
+            border-radius: 12%;
+            padding-right: 10px;
+            display: inline-block;
+        }
+    </style>
 </head>
-
-<style>
-    header{
-        text-align: center;
-        font: bolder;
-        font-size: x-large;
-        cursor: pointer;
-        transition: opacity 0.2s;
-    }
-    header:hover{
-        opacity: 0.65;
-    }
-    html{
-        background-color: rgb(90, 194, 150);
-        font-family: sans-serif;
-    }
-    summary{
-        cursor: pointer;
-        transition: opacity 0.2s;
-    }
-    summary:hover{
-        opacity: 0.65;
-    }
-    .nav-buttons{
-        width: 100px;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: opacity 0.2s;
-        font-weight: bolder;
-    }
-    .nav-buttons:hover{
-        opacity: 0.65;
-    }
-    .dave-pic{
-        padding-top: 10px;
-        width: 500px;
-        border-radius: 12%;
-        padding-right: 10px;
-        display: inline-block;
-    }
-</style>
-<header id="#page-title"><u>Dave; bibliograf&iacute;a resumida</u></header>
 <!--Cuerpo de página empieza aquí-->
 <body>
+    <header id="#page-title"><u>Dave; bibliograf&iacute;a resumida</u></header>
     <details>
         <summary> Navegaci&oacute;n</summary>
+        <button class="nav-buttons"><a href="#page-title">
+            Inicio</a></button>
             <button class="nav-buttons">
-            <a href="#page-title">Inicio</a>
-            <button class="nav-buttons">
-            <a href="#overview">&Eacute;xitos</a>
+                <a href="#overview">&Eacute;xitos
+                </a>
             </button>
             <button class="nav-buttons">
-            <a href="#contacts">Contacto</a>
+                <a href="#contacts">Contacto</a>
             </button>
     </details>
 
-    <img src="img/DAVE.jpg" class="dave-pic"
+    <img src="/DAVEoagweb/img/DAVE.jpg" class="dave-pic"
     title="DAVE, rapper Brit&aacute;nico" alt="foto de Dave">
 <!--Descripción breve-->
     <h2><i>Sobre Dave</i></h2>
@@ -80,7 +79,6 @@
     </p>
 
     <p><i>Sus mayores &eacute;xitos incluyen, pero no se limitan a:</i></p>
-    </i></p>
 
     <ul>
         <li>Thiago Silva</li>
